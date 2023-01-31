@@ -24,9 +24,9 @@
                 <td>@Html.DisplayFor(modelItem => item.Numero)</td>
                 <td>@Html.DisplayFor(modelItem => item.Estado)</td>
                 <td>
-                    @Html.ActionLink("Detalle", "Detail", "Aula", new{id = item.Id});
-                    @Html.ActionLink("Eliminar", "Delete", "Aula", new{id = item.Id});
-                    @Html.ActionLink("Editar", "Edit", "Aula", new{id = item.Id});
+                    @Html.ActionLink("Detalle", "Details", "Aula", new{id = item.Id})
+                    @Html.ActionLink("Eliminar", "Delete", "Aula", new{id = item.Id})
+                    @Html.ActionLink("Editar", "Edit", "Aula", new{id = item.Id})
                 </td>
             </tr>
         }

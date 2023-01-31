@@ -35,7 +35,7 @@ namespace WebEscuelaMVC.Controllers
         {
             Aula aula = new Aula();
 
-            return View(aula);
+            return View("Register");
         }
 
         //CREATE POST
@@ -49,12 +49,12 @@ namespace WebEscuelaMVC.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View(aula);
+            return View("Register", aula);
         }
 
         //DETAILS GET
         [HttpGet]
-        public ActionResult Detail(int id)
+        public ActionResult Details(int id)
         {
             Aula aula = TraerUna(id);
 
@@ -63,7 +63,7 @@ namespace WebEscuelaMVC.Controllers
                 return NotFound();
             }
             
-            return View("Detail", aula);
+            return View("Detalle", aula);
         }
 
         //EDIT GET
@@ -77,7 +77,7 @@ namespace WebEscuelaMVC.Controllers
                 return NotFound();
             }
 
-            return View(aula);
+            return View("Edit", aula);
         }
 
         //EDIT POST
