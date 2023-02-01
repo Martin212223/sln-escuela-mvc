@@ -150,3 +150,5 @@ C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMV
 C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMVC\obj\Debug\netcoreapp3.1\WebEscuelaMVC.dll
 C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMVC\obj\Debug\netcoreapp3.1\WebEscuelaMVC.pdb
 C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMVC\obj\Debug\netcoreapp3.1\WebEscuelaMVC.genruntimeconfig.cache
+C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Alternativa\Desktop\Último curso\MVCEscuela\slnEscuelaMvc\WebEscuelaMVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs

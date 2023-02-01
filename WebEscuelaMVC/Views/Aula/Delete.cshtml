@@ -1,13 +1,8 @@
 ﻿@model WebEscuelaMVC.Models.Aula
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
-</head>
-<body>
+@{
+    ViewData["Title"] = "Eliminar Aula";
+}
 
     <h2>Aula: @Model.Numero Estado: @Model.Estado</h2>
     <p>¿Desea eliminar esta aula?</p>
@@ -30,5 +25,4 @@
 
     }
 
-</body>
-</html>
+
